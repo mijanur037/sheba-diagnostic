@@ -1307,6 +1307,11 @@ html, body {
   padding: 15px 60px;
 }
 
+.sample-collection-btn{
+  box-shadow:0 3px 4px rgba(242, 234, 222, 0.5);
+}
+.sample-collection-btn:hover { transform:translateY(-3px); box-shadow:0 10px 15px rgba(35, 245, 245, 0.5); }
+
 @media (max-width: 600px) {
     .extra-padding {
         padding: 10px 15px;
