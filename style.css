@@ -1312,8 +1312,43 @@ html, body {
 }
 .sample-collection-btn:hover { transform:translateY(-3px); box-shadow:0 10px 15px rgba(35, 245, 245, 0.5); }
 
+.footer-call-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  background:var(--teal);
+  color:white;
+  padding:10px 20px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:700;
+  font-size:14px;
+}
+
+.footer-logo-btn{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:16px;
+}
+
+
+
+
+
 @media (max-width: 600px) {
     .extra-padding {
         padding: 10px 15px;
     }
+    .footer-call-btn{
+  padding: 10px;
+  font-size:12px;
+  align-items:left;
+}
+
+.footer-departments{
+  display: none;
+}
+
+
 }
